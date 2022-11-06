@@ -11,14 +11,18 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/btnAddItem" />
+        android:layout_above="@+id/btnAddItem"
+        android:
+
+
+        />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/etNewItem"
         android:layout_alignTop="@+id/btnAddItem"
-        android:hint="Enter a new item"
+        android:hint="Nueva Tarea"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_toLeftOf="@+id/btnAddItem"
@@ -37,12 +41,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Item"
+        android:text="Añadir Tarea"
         android:id="@+id/btnAddItem"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:onClick="onAddItem"
-        />
+        tools:ignore="DuplicateIds" />
 
 </RelativeLayout>
